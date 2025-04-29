@@ -33,7 +33,7 @@
 
 # INPUT
 ## exp2.l.txt
-## %{
+%{
 /* program to recognize a C program */
 int COMMENT = 0;
 %}
@@ -126,12 +126,20 @@ int main(int argc, char **argv) {
 int yywrap() { 
     return 1; 
 } 
+
+
 ## var.c
 #include <stdio.h>
+
 int main(){
+
 	int a,b;
+ 
 	return 0;
+ 
 }
+
+
 # OUTPUT
 ![Screenshot 2025-04-29 194722](https://github.com/user-attachments/assets/eea2bf1c-2743-4248-9c3c-a15e7dfc44ca)
 
