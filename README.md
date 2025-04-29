@@ -32,7 +32,7 @@
 7.	Compile that file with C compiler and verify the output.
 
 # INPUT
-### exp2.l.txt
+## exp2.l.txt
 %{
 /* program to recognize a C program */
 int COMMENT = 0;
@@ -126,7 +126,7 @@ int main(int argc, char **argv) {
 int yywrap() { 
     return 1; 
 }
-### var.c
+## var.c
 #include <stdio.h>
 int main(){
 	int a,b;
