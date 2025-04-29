@@ -133,7 +133,8 @@ int main(){
 	return 0;
 }
 # OUTPUT
-![Screenshot 2025-04-15 144447](https://github.com/user-attachments/assets/3d901283-0e6a-49be-8317-859f31ec271e)
+![Screenshot 2025-04-29 194722](https://github.com/user-attachments/assets/eea2bf1c-2743-4248-9c3c-a15e7dfc44ca)
+
 
 # RESULT
 ## The lexical analyzer is implemented using lex and the output is verified.
